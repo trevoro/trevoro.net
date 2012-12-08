@@ -1,0 +1,6 @@
+---
+exclude: ['README.md']
+permalink: pretty
+pygments: true
+safe: false
+host: blog.caliper.io
