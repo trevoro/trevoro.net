@@ -1,8 +1,12 @@
 ---
-layout: default
+layout: single
 ---
-<article>
-  <time datetime="{{ page.date | xmlschema }}">{{ page.date | date: "%d %b, %Y" }}</time>
-  <h2>{{ page.title }}</h2>
-  {{ content }}
-</article>
+<hr/>
+<div class="post">
+	<article>
+		{% assign author = site.authors[page.author] %}
+		<h2><a href="{{ page.link }}">{{ page.title }}</a></h2>
+		<h5>{{ site.time | date: "%B %Y" }}</h5>
+		{{ content }}
+	</article>
+</div>

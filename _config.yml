@@ -4,3 +4,10 @@ permalink: pretty
 pygments: true
 safe: false
 host: blog.caliper.io
+authors:
+  trevoro: 
+    display_name: Trevor O
+    gravatar: 24969c869ebd849cbe81575761daad15 
+    email: trevoro@coherence.io
+    twitter: trevoro
+    github: trevoro
