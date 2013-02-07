@@ -1,0 +1,18 @@
+---
+comments: true
+date: 2006-07-06 19:18:43
+layout: post
+slug: updates
+title: Updates
+wordpress_id: 117
+categories:
+- General
+---
+
+Hi everyone (noone?)
+
+The reason I havent' written anything is because, well. I'm lazy. That and I'm working on some new blogging software for my site and a new address. Isystech.net will be used for any consulting I may do in the future. I dont have the new site name yet, but when I do it will be here for a month or so. Also, redirects will be in place for quite some time.
+
+Any-hoo hope everyone is enjoying their summer
+
+-Trev

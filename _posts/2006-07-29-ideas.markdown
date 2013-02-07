@@ -1,0 +1,24 @@
+---
+comments: true
+date: 2006-07-29 19:14:20
+layout: post
+slug: ideas
+title: Ideas!
+wordpress_id: 124
+categories:
+- General
+---
+
+Lately things have been moving in the right direction. I have a few interviews lined up, a timeline for moving, as well as a couple projects project and business ideas. I've finally been able to write them down on paper and flesh them out.
+
+One idea I came up with last night over a cold beer, was to write a feed aggregator that would parse sites like digg, reddit, and del.icio.us, etc. Most of those services end up having the same story eventually. So the idea is to make a website that tracked when the stories appeared, who had it first, then use tags to come up with an overall picture of the type of news-feed that each news-aggregate site is.
+
+The problem is - as my friend Ed pointed out - it would be a website for smart people. Not that that's a problem, I'd simply never make any money off it. But you have to start *somewhere*. Besides it's interesting and the software you'd need to write to parse stories would be a little complex. You would have to customize modules for each site, so that it could record what the deep-link was, that is - the link to the story in question. Checking stories against previous instances of reporting would involve taking the deep-link as a fingerprint of sorts, and comparing that to the newest submission from some other site.
+
+Ive always been sort of obsessed with data visualization, so it would be cool to try coming up with a nice graphic that would accurately describe when stories are popping up where.
+
+One thing at a time though.
+
+Questions and comments would be awesome.
+
+p.s. Site layout has changed - yet again. I'm going to stick with this one.

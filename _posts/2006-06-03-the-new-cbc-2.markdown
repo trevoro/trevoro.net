@@ -1,0 +1,14 @@
+---
+comments: true
+date: 2006-06-03 13:33:17
+layout: post
+slug: the-new-cbc-2
+title: The New CBC
+wordpress_id: 116
+categories:
+- General
+---
+
+[CBC](http://www.cbc.ca) changed its website layout today. The new design features some nice use of CSS and a new layout. [cbc.ca/news](http://www.cbc.ca/news) is the best improvement, in my opinion. The layout is pleasing to the eye, unlike the main page, which seems a little cluttered, and off-center. The right-side advertisement is also extremely annoying. I use ad-blocker, so it's generally not a problem, but it would be nice if in the absense of the ad, the page would be more centered, with the news and highlights being in the middle of the page. Anyway, its better than their old (dated) design. More fantastic stuff from one of the best media corporations on the planet. Keep up the good work
+
+-T

@@ -1,0 +1,20 @@
+---
+comments: true
+date: 2005-03-16 13:10:10
+layout: post
+slug: my-ipood
+title: My iPood
+wordpress_id: 20
+categories:
+- General
+---
+
+(That's intentional)
+
+
+  
+
+![me and my ipod](http://www.isystech.net/images/me_ipod-small.png)
+
+
+In accordance with Federal law, I am now the proud owner of a nice silver ipod mini. I have very few complaints, although it would have been nice to get the firewire cable. I suppose now that Apple's realized that 99% of their customers barely know what firewire is, they can save some money by not including it in the package. I - however, prefer firewire over usb2.0 but like I said earlier: it works and everythings okay. Oddly enough the software that came with the mini didn't really work well on either of my friends Windows boxes. I run a unix desktop and I didn't want to take a chance formatting it using my tools, but at the end of the day I got impatient, and when I get impatient I just do things my way. Suffice to say it worked, and 'dd' is my saviour. Thank you. Next item on the purchase list - Decent headphones. I will admit though, if I buy other headphones, how will everyone else know I'm using (wearing?) an ipod? What a great idea. White headphones that stand out - that are unique to apple. Good work Apple, just let me come up with the next great idea will you?
