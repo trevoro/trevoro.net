@@ -1,13 +1,13 @@
 ---
-exclude: ['README.md']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock']
 permalink: pretty
 pygments: true
 safe: false
-host: blog.caliper.io
+host: trevoro.net
 authors:
   trevoro: 
     display_name: Trevor O
     gravatar: 24969c869ebd849cbe81575761daad15 
-    email: trevoro@coherence.io
+    email: trevoro@gmail.com
     twitter: trevoro
     github: trevoro
