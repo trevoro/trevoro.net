@@ -13,44 +13,42 @@ I hacked together a quick model for a prototype REST API written in Node.js, and
 
 Validating in Javascript can be done in many ways but this is a method I came up with after a couple iterations. Let's take a look at the code.
 
-    
-    PictureValidations = function() {
-    
-      this.name = function(name) {
-        return /^[A-Za-z0-9_-]{8,64}$/.test(name);
-      }
-    
-      this.type = function(type) {
-        return /^(jpeg|png|gif|bmp)$/.test(type);
-      }
-    
-      this.tags = function(tags) {
-        for (i in tags) {
-          if(!(/^[A-Za-z0-9]+$/.test(tags[i]))) { return false };
-        }
-      }
-    
-    }
-    
-    exports.Picture = function(options) {
-      this.name =  options.name ||"unassigned" ;
-      this.tags = options.tags;
-      this.description = options.description;
-      this.created_on = new Date().getTime();
-    }
-    
-    exports.Picture.prototype.valid = function() {
-      var validations = new PictureValidations();
-      var valid = true;
-      for (v in validations) {
-        valid = validations[v](this[v]);
-        if (valid == false) { break ; } // stop checking on first failure
-      };
-      return valid
-    }
+{% highlight javascript %}
+PictureValidations = function() {
 
+  this.name = function(name) {
+    return /^[A-Za-z0-9_-]{8,64}$/.test(name);
+  }
 
+  this.type = function(type) {
+    return /^(jpeg|png|gif|bmp)$/.test(type);
+  }
 
+  this.tags = function(tags) {
+    for (i in tags) {
+      if(!(/^[A-Za-z0-9]+$/.test(tags[i]))) { return false };
+    }
+  }
+
+}
+
+exports.Picture = function(options) {
+  this.name =  options.name ||"unassigned" ;
+  this.tags = options.tags;
+  this.description = options.description;
+  this.created_on = new Date().getTime();
+}
+
+exports.Picture.prototype.valid = function() {
+  var validations = new PictureValidations();
+  var valid = true;
+  for (v in validations) {
+    valid = validations[v](this[v]);
+    if (valid == false) { break ; } // stop checking on first failure
+  };
+  return valid
+}
+{% endhighlight %}
 
 ### How it works
 
