@@ -1,20 +1,12 @@
 ---
 layout: default
-title: Caliper blog
+title: trevoro
 ---
 
+{% for p in site.posts limit:5 %}
 <article>
-  <time datetime="{{ site.posts.first.date | xmlschema }}">{{ site.posts.first.date | date: "%d %b" }}</time>
-  <h2><a href="{{ site.posts.first.url }}">{{ site.posts.first.title }}</a></h2>
-  {{ site.posts.first.content }}
+  <h2><a href="{{ p.url }}">{{ p.title }}</a></h2>
+  <time datetime="{{ p.date | xmlschema }}">{{ p.date | date: "%b %d %Y" }}</time>
+  {{ p.content }}
 </article>
-<hr>
-<h2>Archive</h2>
-<ol id="archive">
-  {% for post in site.posts offset:1 %}
-    <li>
-      <time datetime="{{ post.date | xmlschema }}">{{ post.date | date: "%Y-%m" }}</time>
-      <p><a href="{{ post.url }}">{{ post.title }}</a></p>
-    </li>
-  {% endfor %}
-</ol>
+{% endfor %}

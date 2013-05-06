@@ -4,19 +4,6 @@ date: 2010-11-23 19:26:09
 layout: post
 slug: how-to-learn-node-js-from-scratch
 title: How to learn Node.js from Scratch
-wordpress_id: 503
-categories:
-- Development
-- Geek
-- General
-- javascript
-tags:
-- dev
-- developer
-- engineer
-- javascript
-- node
-- tutorial
 ---
 
 Server-side Javascript has appealed to me for [quite a awhile](http://trevoro.ca/blog/2009/02/05/why-serverside-javascript-matters/), and while watching from the sidelines was interesting, I still [never had the time](http://trevoro.ca/blog/2010/07/15/layerboom-acquired-by-joyent/) to really get my feet wet and see how the language really worked. That changed after joining Joyent, of course. We're the proud home of Node.js, and it would be wrong unforgivable if I didn't know how to write JS.
