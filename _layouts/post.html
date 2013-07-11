@@ -1,10 +1,21 @@
----
-layout: single
----
-<div class="post">
-	<article>
-		{% assign author = site.authors[page.author] %}
-		<h2><a href="{{ page.link }}">{{ page.title }}</a></h2>
-		{{ content }}
-	</article>
-</div>
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>{{ page.title }}</title>
+    {% include header.html %}
+  </head>
+	<body>
+		<div class="container">
+      <div class="row">
+        <div class="span8 offset2">
+          <article>
+            {% assign author = site.authors[page.author] %}
+            <h2><a href="{{ page.link }}">{{ page.title }}</a></h2>
+            {{ content }}
+          </article>
+        </div>
+      </div>
+		</div>
+    {% include footer.html %}
+  </body>
+</html>

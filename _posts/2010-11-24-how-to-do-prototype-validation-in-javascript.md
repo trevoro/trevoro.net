@@ -4,9 +4,6 @@ date: 2010-11-24 09:42:48
 layout: post
 slug: how-to-do-prototype-validation-in-javascript
 title: How to do Prototype Validation in Javascript
-wordpress_id: 512
-categories:
-- General
 ---
 
 I hacked together a quick model for a prototype REST API written in Node.js, and wanted to validate an object prior to saving it to a database. I didn't want or need some wacky full blown ORM but I did want to ensure that the records I was storing were consistent.

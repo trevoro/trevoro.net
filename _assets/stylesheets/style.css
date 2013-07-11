@@ -1,16 +1,9 @@
 article {
-  width: 100%;
-  padding-top: 30px;
-  font-family: 'Open Sans', sans-serif;
-  width: 720px;
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: normal;
+  padding-top: 20px;
+  font-family: 'Roboto Slab', Georgia, Cambria, 'Times New Roman', Times, serif;
   vertical-align: baseline;
   display: block;
-  color: #333332;
-  margin: auto auto;
-  padding-bottom: 80px;
+  margin-bottom: 40px;
 }
 article h5 {
   width: 100%;
@@ -18,39 +11,37 @@ article h5 {
   font-size: 14px;
   font-weight: 100;
   padding: 5px 0 5px 0;
-  margin: 0;
 }
-article .meta .author {
-  font-size: 12px;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #333;
+article .meta {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 16px;
+  color: rgba(52, 73, 94, 0.3);
 }
-article .meta img {
-  width: 48px;
-  height: 48px;
-  border-radius: 5px;
-  -moz-border-radius: 10px;
+article .social {
+  margin-top: 60px;
 }
 article h2 {
   font-size: 47px;
   font-weight: 700;
   line-height: 51px;
   padding: 5px 0 5px 0;
-  margin: 0;
+  color: rgb(52, 73, 94);
 }
 article h2 a {
+  font-family: 'Myriad Pro', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
+  font-weight: bold;
   text-decoration: none;
   border: none;
-  color: #333332;
+  color: rgb(52, 73, 94);
 }
 article p {
-  font-size: 22px;
+  font-weight: 300;
+  font-size: 20px;
   line-height: 1.5em;
   letter-spacing: normal;
 }
 button {
-  margin: 0 0 0 10px;
   height: 54px;
   padding: 13px 24px;
   background: #23748e;
@@ -61,35 +52,26 @@ button {
   font-size: 22px;
   text-decoration: none;
 }
-html {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
 .curly {
   font-family: "adelle";
   font-weight: 100;
 }
-#footer {
-  position: absolute;
+footer {
   bottom: 0;
   height: 100px;
   width: 100%;
   background-position: bottom;
 }
 a {
+  color: rgb(25, 184, 153);
   text-decoration: none;
 }
 #wrap {
   margin: auto auto;
 }
 body {
-  min-height: 100%;
-  position: relative;
-  padding: 0 0 100px 0;
-  margin: 0;
-  color: #525252;
-  background: white;
+  background: #fff;
+  color: rgb(52, 73, 94);
 }
 .unselect {
   -moz-user-select: -moz-none;
@@ -102,9 +84,7 @@ button:active {
   background: #1b435e;
 }
 strong {
-  font-family: 'Helvetica';
-  letter-spacing: -0.04em;
-  font-weight: bold;
+  font-weight: normal;
 }
 .center {
   text-align: center;

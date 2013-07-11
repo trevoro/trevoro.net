@@ -4,7 +4,6 @@ date: 2011-07-12 11:19:03
 layout: post
 slug: in-defense-of-the-intrapreneur
 title: In Defense of the Intrapreneur
-wordpress_id: 504
 ---
 
 I read a rather [harsh criticism](http://www.chubbybrain.com/blog/intrapreneur-entrepreneur-no-similarity/)

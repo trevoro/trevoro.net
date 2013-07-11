@@ -1,9 +1,10 @@
 ---
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock']
-permalink: pretty
+permalink: /:categories/:year/:title/ 
 pygments: true
 safe: false
-host: trevoro.net
+production_url: http://trevoro.net
+paginate: 5
 authors:
   trevoro: 
     display_name: Trevor O
@@ -11,3 +12,7 @@ authors:
     email: trevoro@gmail.com
     twitter: trevoro
     github: trevoro
+assets:
+  compress:
+    js: uglifier
+    css: sass
