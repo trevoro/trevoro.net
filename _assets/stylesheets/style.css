@@ -58,9 +58,15 @@ button {
 }
 footer {
   bottom: 0;
-  height: 100px;
   width: 100%;
+  padding: 20px 0 0 40px;
   background-position: bottom;
+  text-align: center;
+}
+footer .social-links {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 30px;
 }
 a {
   color: rgb(25, 184, 153);
