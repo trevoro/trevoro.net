@@ -3,7 +3,7 @@ article {
   font-family: 'Roboto Slab', Georgia, Cambria, 'Times New Roman', Times, serif;
   vertical-align: baseline;
   display: block;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 article h5 {
   width: 100%;
@@ -59,7 +59,7 @@ button {
 footer {
   bottom: 0;
   width: 100%;
-  padding: 20px 0 0 40px;
+  padding: 20px 0 60px 0;
   background-position: bottom;
   text-align: center;
 }
