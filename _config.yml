@@ -1,5 +1,5 @@
 ---
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock']
+exclude: ['Makefile', 'README.md', 'Gemfile', 'Gemfile.lock']
 permalink: /:categories/:year/:title/ 
 pygments: true
 safe: false

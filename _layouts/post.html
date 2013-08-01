@@ -1,3 +1,6 @@
+{% assign author = site.authors[page.author] %}
+{% capture page_url %}{{ site.production_url }}{{ page.url }}{% endcapture %}
+
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
@@ -9,14 +12,15 @@
       <div class="row">
         <div class="span8 offset2">
           <article>
-            {% assign author = site.authors[page.author] %}
             <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
             <div class="meta">
               <time datetime="{{ page.date | xmlschema }}">{{ page.date | date: "%b %d %Y" }}</time>
             </div>
             {{ content }}
-            <div class="social">
-              <a href="https://twitter.com/intent/tweet?text={{ page.title | cgi_escape }}&url={{ site.production_url | cgi_escape }}{{ page.url | cgi_escape }}" class="btn btn-primary">Share</a>
+            <div class="social row-fluid">
+              <a href="#" data-url="{{ page_url }}" data-text="{{ page.title }}" id="share-twitter" class="btn btn-primary pull-left">Share</a>
+              <a href="#" data-url="{{ page_url }}" id="share-facebook" class="ss-icon ss-social pull-right">facebook</a>
+              <a href="#" data-url="{{ page_url }}" id="share-gplus" style="padding-top: 11px" class="ss-icon ss-social pull-right">googleplus</a>
             </div>
           </article>
         </div>
