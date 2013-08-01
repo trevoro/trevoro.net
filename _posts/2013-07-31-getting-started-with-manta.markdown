@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Getting Started With Manta
+slug: A new approach to object storage & compute
 date: 2013-07-31
 ---
 

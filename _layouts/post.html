@@ -13,6 +13,7 @@
         <div class="span8 offset2">
           <article>
             <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+            <h3 class="slug">{{ page.slug }}</h3>
             <div class="meta">
               <time datetime="{{ page.date | xmlschema }}">{{ page.date | date: "%b %d %Y" }}</time>
             </div>

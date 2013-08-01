@@ -13,6 +13,7 @@ article h5 {
   padding: 5px 0 5px 0;
 }
 article .meta {
+  font-family: "Helvetica Neue", "arial", sans-serif;
   font-size: 20px;
   font-weight: 300;
   margin-bottom: 16px;
@@ -33,10 +34,15 @@ article h2 {
   font-weight: 700;
   line-height: 51px;
   padding: 5px 0 5px 0;
+  margin-left: -2px;
   color: rgb(52, 73, 94);
 }
 article h3 {
   margin-top: 1em;
+}
+h3.slug {
+  margin-top: -15px;
+  font-weight: normal;
 }
 article h2 a {
   font-family: 'Myriad Pro', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
