@@ -76,7 +76,10 @@ footer {
 footer .social-links {
   margin-top: 20px;
   text-align: center;
-  font-size: 30px;
+  font-size: 36px;
+}
+footer .social-links .ss-icon {
+  vertical-align: middle;
 }
 a {
   color: rgb(25, 184, 153);
