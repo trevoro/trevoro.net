@@ -3,16 +3,26 @@ layout: default
 title: trevoro
 ---
 
-{% for p in site.posts limit:5 %}
-<article>
-  <div class="row">
-    <div class="span8 offset2">
-      <h2><a href="{{ p.url }}">{{ p.title }}</a></h2>
-      <div class="meta">
-        <time datetime="{{ p.date | xmlschema }}">{{ p.date | date: "%b %d %Y" }}</time>
-      </div>
-      {{ p.content }}
+<div class="row-fluid">
+  <div class="span3 offset1 center sidebar">
+    <h1 class="center">Hello!</h1>
+    <img class="img-circle" src="/img/trevoro-small.png" alt="trevoro">
+    <p>Trevor Orsztynowicz (Austin-ah-vich) is an entrepreneur, product manager, and software developer. He's based in sunny Vancouver, BC. All thoughts here are his and since he's self employed, probably but not necessarily his employers.</p>
+    <div class="social-links">
+      <a href="http://github.com/trevoro" target="_blank" class="ss-icon ss-social">Github</a>
+      <a href="http://twitter.com/trevoro" target="_blank" class="ss-icon ss-social">Twitter</a>
+      <a style="vertical-align: top" href="http://linkedin.com/in/trevoro" target="_blank" class="ss-icon ss-social">LinkedIn</a>
     </div>
   </div>
-</article>
-{% endfor %}
+
+  <div id="posts" class="span7 offset1">
+    {% for p in site.posts limit:5 %}
+    <div class="row">
+      <div class="span7">
+        <time datetime="{{ p.date | xmlschema }}">{{ p.date | date: "%b %d %Y" }}</time>
+        <h3><a href="{{ p.url }}">{{ p.title }}</a></h3>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
