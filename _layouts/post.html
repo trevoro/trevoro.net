@@ -10,8 +10,14 @@
         <div class="span8 offset2">
           <article>
             {% assign author = site.authors[page.author] %}
-            <h2><a href="{{ page.link }}">{{ page.title }}</a></h2>
+            <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+            <div class="meta">
+              <time datetime="{{ page.date | xmlschema }}">{{ page.date | date: "%b %d %Y" }}</time>
+            </div>
             {{ content }}
+            <div class="social">
+              <a href="https://twitter.com/intent/tweet?text={{ page.title | cgi_escape }}&url={{ site.production_url | cgi_escape }}{{ page.url | cgi_escape }}" class="btn btn-primary">Share</a>
+            </div>
           </article>
         </div>
       </div>

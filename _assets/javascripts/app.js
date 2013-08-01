@@ -3,9 +3,11 @@
 //= require jquery.ui.touch-punch.min
 //= require bootstrap.min
 //= require bootstrap-select
+//= require bootstrap-modal
 //= require flatui-checkbox
 //= require flatui-radio
 //= require jquery.tagsinput
 //= require jquery.placeholder
 //= require jquery.stackable
 //= require prettify
+//= require application
