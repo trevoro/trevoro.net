@@ -28,7 +28,7 @@ Just copy and paste them into your `.bashrc` then source with `. ~/.bashrc`
 
 At this point you should be ready to upload a file. Manta includes command
 line utilities for listing, creating, and destroying files and directories.
-Let's use [this sample file](https://us-east-1.manta.joyent.com/trevoro/beer.jpg)
+Let's use [this sample file](https://us-east.manta.joyent.com/trevoro/beer.jpg)
 
     $ mput /$MANTA_USER/public/beer.jpg -f beer.jpg
     $ wget https://us-east.manta.joyent.com/$MANTA_USER/public/beer.jpg
