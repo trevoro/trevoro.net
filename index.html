@@ -19,7 +19,7 @@ title: trevoro
   </div>
 
   <div id="posts" class="span7 offset1">
-    {% for p in site.posts limit:5 %}
+    {% for p in site.posts limit:10 %}
     <div class="row">
       <div class="span7">
         <time datetime="{{ p.date | xmlschema }}">{{ p.date | date: "%b %d %Y" }}</time>
