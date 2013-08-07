@@ -59,9 +59,10 @@ article h2 {
 }
 article h3 {
   margin-top: 1em;
+  line-height: 1.15em;
 }
 h3.slug {
-  margin-top: -15px;
+  margin-top: 0;
   font-weight: normal;
 }
 article h2 a {
@@ -139,4 +140,14 @@ button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
+}
+@media (max-width: 767px) {
+  body {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+  .container {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
 }
