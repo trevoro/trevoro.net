@@ -2,7 +2,7 @@
 title: "What's your timezone?"
 slug: Stop asking your users for their timezone. Use per device timezone settings & Javascript instead.
 layout: post
-date: 2013-07-31
+date: 2013-08-06
 ---
 
 Why do we care what timezone a user is in?
