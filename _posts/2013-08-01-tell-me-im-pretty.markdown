@@ -7,7 +7,7 @@ date: 2013-08-01
 
 One of the best parts about the scientific method is that negative results are
 celebrated as much as positive ones. While a negative result is sometimes less
-of a joyous occasion, having an answer generally regarded as better than not
+of a joyous occasion, having an answer is regarded as better than not
 knowing at all. Being impartial and viewing results without prejudice is the
 hallmark of a great researcher. 
 
