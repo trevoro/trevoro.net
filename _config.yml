@@ -3,15 +3,15 @@ exclude: ['Makefile', 'README.md', 'Gemfile', 'Gemfile.lock']
 permalink: /:categories/:year/:title/ 
 pygments: true
 safe: false
+title: Trevor O
 production_url: http://trevoro.net
 paginate: 5
-authors:
-  trevoro: 
-    display_name: Trevor O
-    gravatar: 24969c869ebd849cbe81575761daad15 
-    email: trevoro@gmail.com
-    twitter: trevoro
-    github: trevoro
+author:
+  name: Trevor O
+  gravatar: 24969c869ebd849cbe81575761daad15 
+  email: trevoro@gmail.com
+  twitter: trevoro
+  github: trevoro
 assets:
   compress:
     js: uglifier
