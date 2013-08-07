@@ -141,6 +141,12 @@ input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
+.rss-fixed {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+} 
+
 @media (max-width: 767px) {
   body {
     padding-right: 0 !important;
