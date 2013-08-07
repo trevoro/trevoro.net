@@ -20,12 +20,14 @@ title: trevoro
 
   <div id="posts" class="span7 offset1">
     {% for p in site.posts limit:10 %}
+    {% unless p.hidden %}
     <div class="row">
       <div class="span7">
         <time datetime="{{ p.date | xmlschema }}">{{ p.date | date: "%b %d %Y" }}</time>
         <h3><a href="{{ p.url }}">{{ p.title }}</a></h3>
       </div>
     </div>
+    {% endunless %}
     {% endfor %}
   </div>
 </div>

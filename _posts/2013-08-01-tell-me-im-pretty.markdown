@@ -31,7 +31,7 @@ Here are a few things that might help you overcome confirmation bias
 #### Understand Motivation
 
 When you're consuming information or discussing an idea, think about who is
-telling you something and why. You should be especially nervous is only one
+telling you something and why. You should be especially nervous if only one
 realistic suggestion is given.
 
 #### Remove Emotion
@@ -48,7 +48,7 @@ Does everyone in a group agree? You should [probably be
 concerned](http://www.psysr.org/about/pubs_resources/groupthink%20overview.htm). Given a large
 enough group of people, you'll always have a dissenting voice. That voice should
 be listened to, and their opinion should be taken seriously. You dont want a
-group thats too large (design by committee - hurray) but you should be able to
+group that's too large (design by committee - hurray) but you should be able to
 be challenged in your opinion and be able to defend your decision.
 
 #### Hindsight Bias
