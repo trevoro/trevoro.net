@@ -57,7 +57,7 @@ Are you looking through a lens of your past decisions? Its important to
 understand that [hindsight bias](http://en.wikipedia.org/wiki/Hindsight_bias) 
 plays an important part in how we make decisions.
 
-You have to prepare yourself for surprisises. The good kind and the bad kind. I
+You have to prepare yourself for surprises. The good kind and the bad kind. I
 consider preparing yourself for the worst and hoping for the best a "best
 practice". When you understand that a flop or a failure is a possibility, you can 
 plan around the situation a lot better than had you gone into something with blind 
