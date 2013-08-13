@@ -9,8 +9,16 @@
   </head>
 	<body>
 		<div class="container">
+			{% if page.hidden %}
+			<div class="row draft-alert">
+				<div class="span8 offset2 alert alert-info">
+					<b>This is a draft</b> You've been given this link in confidence. Please don't 
+					share it with anyone. Thanks!
+				</div>
+			</div>
+			{% endif %}
       <div class="row">
-        <div class="span8 offset2">
+				<div class="span8 offset2">
           <article>
             <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
             <h3 class="slug">{{ page.slug }}</h3>
