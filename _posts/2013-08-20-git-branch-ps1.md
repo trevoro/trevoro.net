@@ -17,7 +17,6 @@ the master branch. For other branches then I use the `*` token. I dont
 necessarily care which branch it is. For that I still use `git branch`, but at
 least I know I'm not on master.
 
-
     WHITE="\[\033[1;37m\]"
     GREEN="\[\033[0;32m\]"
     RESET="\[\033[00m\]"
