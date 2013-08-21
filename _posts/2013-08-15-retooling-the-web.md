@@ -2,7 +2,6 @@
 layout: post
 title: Retooling the Web
 slug: Single-page apps and APIs are changing how we're building the web
-hidden: true
 date: 2013-08-15
 ---
 
