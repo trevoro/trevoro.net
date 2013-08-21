@@ -1,9 +1,7 @@
 ---
-comments: true
-date: 2010-07-15 07:12:05
 layout: post
-slug: layerboom-acquired-by-joyent
 title: Layerboom Acquired by Joyent!
+date: 2010-07-15 07:12:05
 ---
 
 
