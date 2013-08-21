@@ -2,6 +2,7 @@
 layout: post
 date: 2013-08-21
 title: Building Single Page Apps with Grunt
+hidden: true
 slug: Grunt, Yeoman, and Bower make it super easy to build and maintain single page apps
 ---
 
