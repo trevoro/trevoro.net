@@ -5,6 +5,9 @@ slug: See if you're in a git repo when working on the command line
 layout: post
 ---
 
+__Update__ A few people have asked me for a repo so I've created a [clean.sh
+project](https://github.com/trevoro/clean.sh) on Github.
+
 If you're a developer then the tools you use from day to day forms a good part
 of your experience. Something I like to know quickly in a shell is whether or
 not my PWD is in a git repo or not. I also find it useful to know if I'm in
@@ -47,5 +50,4 @@ And if you're on a different branch...
 And if you're not in a git repo
 
     tethys:~ $ 
-
 
