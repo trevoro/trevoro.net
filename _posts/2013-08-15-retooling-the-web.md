@@ -31,14 +31,14 @@ on a server, that state can be updated through using an API that either you own,
 or that a BaaS provides. 
 
 Because of how they work, Single-page apps encourage & enable you to think in clear 
-terms of 'Storage' and 'Client'. Those developers wont ever need to touch the
+terms of 'Storage' and 'Client'. Those developers won't ever need to touch the
 backend, or the API - just consume it. 
 
 ### The Client Server Web
 
 As the distinction between Client and Server continues, we'll end up with two sets of
 specialized developers: Those focused on the backend, and those focused on the
-client. A __client focused__ web app developer probably wont
+client. A __client focused__ web app developer probably won't
 need or recognize many of the existing tools and services. An [entirely new set of
 tools](http://yeoman.io/) have already been created focused _specifically on modern_ web
 apps. 
