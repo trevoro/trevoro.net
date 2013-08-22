@@ -3,6 +3,7 @@ layout: post
 title: Retooling the Web
 slug: Single-page apps and APIs are changing how we're building the web
 date: 2013-08-15
+hnid: 6255059
 ---
 
 Just a few years ago, anyone who wanted to get started with building apps needed
