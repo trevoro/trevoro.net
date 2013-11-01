@@ -16,3 +16,8 @@ When we use the word "obvious" or "obviously" we can mean a few things.
  - Everything in retrospect is obvious. Its hard to tell when someone says
  	 'obviously' when agreeing with you that they thought of it at first, and
  	 elected not to say anything because it was so obvious.
+
+In my opinion, nothing is really 'obvious'.
+Is something unstated but obvious truly obvious?
+
+
