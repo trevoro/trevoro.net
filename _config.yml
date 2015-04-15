@@ -1,7 +1,7 @@
 ---
 exclude: ['Makefile', 'README.md', 'Gemfile', 'Gemfile.lock']
 permalink: /:categories/:year/:title/ 
-pygments: true
+highlighter: pygments
 safe: false
 title: Trevor O
 production_url: http://trevoro.net

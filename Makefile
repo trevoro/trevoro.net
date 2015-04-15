@@ -4,6 +4,7 @@ clean:
 
 .PHONY: setup
 setup:
+	bundle config build.libv8 --with-system-v8
 	bundle install
 
 build:	
