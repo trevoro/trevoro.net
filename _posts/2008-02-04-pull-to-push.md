@@ -1,6 +1,7 @@
 ---
 title: Pull to Push - RSS to XMPP
 date: 2008-02-04
+layout: post
 ---
 
 You and your friend are standing alone in a room. You’re interested in what your

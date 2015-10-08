@@ -1,6 +1,7 @@
 ---
 title: Function as a Service
 date: 2008-07-15
+layout: post
 ---
 
 Websites have gone from hand-typed static pages, to massive applications with

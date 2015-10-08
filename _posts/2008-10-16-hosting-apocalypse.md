@@ -1,6 +1,7 @@
 ---
 title: Hosting Apocalypse
 date: 2008-10-16
+layout: post
 ---
 
 If you run a managed hosting company then your time is officially ‘up’. You
