@@ -35,7 +35,7 @@ Instead of popping out to email to get your ticket, we want to bring the data
 forward. What we should be able to achieve is an element you can interact with,
 delivered in-line, as a response to our question, or a prompt to our user.
 
-## Service Bubbles
+### A new chat primitive
 
 The solution to this problem is a new primitive for chat we call service
 bubbles. A service bubble is an interactive widget that appears in-line with
