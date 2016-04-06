@@ -8,9 +8,10 @@ hidden: true
 Lots of the discussion surrounding conversational interfaces is centered on text
 and the kinds of interactions that medium will enable. The idea is by starting
 with a system that enables organic behaviour, you allow your service to address
-generic needs and requirements. That learning leads to augmentation, and with
-text, that interaction is augmented by layering in some kind of domain specific
-language or if you're lucky a system that understands natural language. 
+generic needs and requirements. The behaviour that people exhibit in your UI
+allow you to learn, and that learning leads to augmentation. With text, that
+interaction is augmented by layering in some kind of domain specific language or
+if you're lucky a system that understands natural language. 
 
 Today, those languages and commands are being interpreted using chat bots.
 Having a bot that can respond to certain types of commands or intercept words
