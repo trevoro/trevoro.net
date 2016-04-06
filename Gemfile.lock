@@ -116,3 +116,6 @@ DEPENDENCIES
   sass
   therubyracer
   uglifier
+
+BUNDLED WITH
+   1.10.3
