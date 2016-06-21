@@ -2,7 +2,6 @@
 title: Service Bubbles
 date: 2016-04-05
 layout: post
-hidden: true
 ---
 
 Lots of the discussion surrounding conversational interfaces is centered on text
