@@ -1,12 +1,14 @@
 .container.page {
   margin-top: 60px;
 }
-.conatiner.page .sidebar {
+.container.page .sidebar {
   height: 100%;
 }
 .container.page .sidebar p {
   color: #525252;
   margin-top: 20px;
+  text-align: left;
+  line-height: 1.5em;
 }
 .container.page .sidebar .social-links a {
   color: #bbb;
@@ -28,8 +30,9 @@
   padding-top: 55px;
 }
 #posts h3 {
-  line-height: 1em;
-  margin-bottom: 1em;
+  line-height: 1.3em;
+  margin-bottom: 2em;
+  margin-top: 0.4em;
 }
 .draft-alert {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
@@ -54,7 +57,7 @@ article .meta {
   font-family: "Helvetica Neue", "arial", sans-serif;
   font-size: 14px;
   font-weight: 300;
-  margin-bottom: 16px;
+  margin-bottom: 2rem;
   color: rgba(52, 73, 94, 0.3);
 }
 article .social {
@@ -73,6 +76,7 @@ article h2 {
   line-height: 51px;
   padding: 5px 0 5px 0;
   margin-left: -2px;
+  margin-bottom: 2rem;
   color: rgb(52, 73, 94);
 }
 article h3 {
@@ -99,7 +103,7 @@ article p {
   font-size: 20px;
   line-height: 1.5em;
   letter-spacing: normal;
-  margin: 0.9em auto;
+  margin: 1rem auto 1.5rem auto;
 }
 button {
   height: 54px;
