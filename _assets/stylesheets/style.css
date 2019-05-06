@@ -183,3 +183,8 @@ input::-moz-focus-inner {
     padding-left: 20px !important;
   }
 }
+
+ol li {
+  font-weight: bold;
+  font-size: 1.1rem;
+}

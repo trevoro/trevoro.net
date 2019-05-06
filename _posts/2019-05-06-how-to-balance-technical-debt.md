@@ -21,7 +21,7 @@ increases the ratio to something else like 50% / 50% until the metric improves.
 This tells you when to make improvements, and when to stop some kinds of
 improvements.
 
-1. Everything degrades over time and software is no different. Dependencies go
+1. **Everything degrades over time and software is no different**. Dependencies go
    stale, implementations don't scale with their datasets, number of users
    increase, number of developers increase, features & complexity increases, and
    a huge number of other variables all contribute to the subjective and
@@ -32,8 +32,8 @@ improvements.
    order to answer “How much?” we can split our work into categories and measure
    the type of work happening in those categories.
 
-2. Software work can be roughly split into Product and Engineering related
-   activities. Planning, Implementation, Quality, and Release are common high
+2. **Software work can be roughly split into Product and Engineering related
+   activities**. Planning, Implementation, Quality, and Release are common high
    level categories. Regardless of your teams series of steps, some work will be
    more technical debt / engineering / scale [9] related, and some work will be
    more ‘add button that does X’ / ‘implement new UI’ related. For the sake of
@@ -47,13 +47,13 @@ improvements.
    Engineering work should make a lasting positive change and should be planned
    and prioritized as well as any product work.
 
-3. Developer time is a limited resource. A team will probably not accomplish
+3. **Developer time is a limited resource**. A team will probably not accomplish
    more or less than it did the previous time period, all else being equal (and
    all else isn’t equal). The team cannot be expected to do engineering related
    activities in their “spare” time, just as much as they cannot be expected to
    ship new features on evenings and weekends in a sustainable way. 
 
-4. The success of the company depend on the success of the Software. If the
+4. **The success of the company depends on the success of the Software**. If the
    uptime of the application is poor then users will be frustrated and quit. If
    the code base is untested, has no standards, and takes a long time to build,
    it will be difficult to modify. If the company has to add new features, and
@@ -61,7 +61,7 @@ improvements.
    application / code base, then time must be dedicated to working on both of
    those things. Without doing both of these activities the business may fail.
 
-4. Objective measurements of quality are important. Measurements of quality are
+4. **Objective measurements of quality are important**. Measurements of quality are
    critical for both Engineering and Product work but quality is often times
    subjective. Our goal should be to make that as objective as possible. The
    simplest way to do this is to define and measure uptime but more advanced
@@ -74,7 +74,7 @@ improvements.
    rates, ARPA, etc. Product and Engineering teams can agree on what quality
    means to the software and business.
 
-5. Engineering and Product can agree on a simple contract. If the Quality goes
+5. **Engineering and Product can agree on a simple contract.** If the Quality goes
    down then the engineering team gets more time for Engineering related work.
    For example if the software experiences an outage then it gets to increase
    its Engineering to Product ratio from 25/75 to 50/50 until the quality
