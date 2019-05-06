@@ -4,6 +4,7 @@ date: 2019-05-04
 layout: post
 hidden: false
 ---
+
 One of the recurring and common complains about Agile and its associated
 methodologies is that it doesn’t make an explicit provision for balancing
 software maintenance with new features. I’ll make the case that those are both
@@ -11,9 +12,10 @@ related, and explain a system that I’ve seen work in the past to balance both
 maintenance and quality with new product work. The major benefit of this
 approach are that it taps into the power of small consistent improvements, and
 also creates space for software teams to do the work they need to do on an
-ongoing basis.
+ongoing basis. This methodology works best along side a virtuous process /
+feedback loop that you can use to improve your teams and companies performance.
 
-TL;DR: Split your sprints / weeks / months into a set of Engineering activities
+**TL;DR**: Split your sprints / weeks / months into a set of Engineering activities
 and Product activities. Measure and maintain a ratio of work between these two
 categories for every period. A healthy ratio is 25% engineering to 75% product.
 When an objective metric of quality goes below its threshold, then your team
@@ -146,3 +148,5 @@ amongst many others.
 or refactoring unrelated areas of code with copy change commits.  
 
 9. Scaling is important but it’s critical to know when to stop.
+
+**Thanks to [@cdemwell](https://twitter.com/cdemwell), [@notmatt](https://twitter.com/notmatt), and [@jeffhorton](https://twitter.com/jeffhorton) for their feedback!**
