@@ -2,7 +2,7 @@
 title: How to Balance Technical Debt
 date: 2019-05-04
 layout: post
-hidden: true
+hidden: false
 ---
 One of the recurring and common complains about Agile and its associated
 methodologies is that it doesn’t make an explicit provision for balancing
