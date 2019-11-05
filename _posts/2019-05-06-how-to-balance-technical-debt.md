@@ -5,7 +5,7 @@ layout: post
 hidden: false
 ---
 
-One of the recurring and common complains about Agile and its associated
+One of the recurring and common complaints about Agile and its associated
 methodologies is that it doesn’t make an explicit provision for balancing
 software maintenance with new features. I’ll make the case that those are both
 related, and explain a system that I’ve seen work in the past to balance both
