@@ -23,67 +23,69 @@ increases the ratio to something else like 50% / 50% until the metric improves.
 This tells you when to make improvements, and when to stop some kinds of
 improvements.
 
-1. **Everything degrades over time and software is no different**. Dependencies go
-   stale, implementations don't scale with their datasets, number of users
-   increase, number of developers increase, features & complexity increases, and
-   a huge number of other variables all contribute to the subjective and
-   objective quality of a codebase. No matter what we do, maintenance will be
-   some part of the software development process, whether its incorporated into
-   “regular work” or not. If we can agree software maintenance has to happen,
-   then we can move on to the more important question of “OK, how much?”. In
-   order to answer “How much?” we can split our work into categories and measure
-   the type of work happening in those categories.
+### Everything degrades over time and software is no different
+Dependencies go stale, implementations don't scale with their datasets, number
+of users increase, number of developers increase, features & complexity
+increases, and a huge number of other variables all contribute to the
+subjective and objective quality of a codebase. No matter what we do,
+maintenance will be some part of the software development process, whether its
+incorporated into “regular work” or not. If we can agree software maintenance
+has to happen, then we can move on to the more important question of “OK, how
+much?”. In order to answer “How much?” we can split our work into categories
+and measure the type of work happening in those categories.
 
-2. **Software work can be roughly split into Product and Engineering related
-   activities**. Planning, Implementation, Quality, and Release are common high
-   level categories. Regardless of your teams series of steps, some work will be
-   more technical debt / engineering / scale [9] related, and some work will be
-   more ‘add button that does X’ / ‘implement new UI’ related. For the sake of
-   conversation, let’s call those two categories “Engineering” and “Product”
-   oriented work respectively. In general, product oriented work are features or
-   enhancements whose primary goal is help the business succeed. Engineering
-   oriented activities are also critical to the success of the business and
-   optimize a separate set of metrics. Both sets of work have to happen in a
-   constrained amount of time. A good software team will be doing roughly 1 part
-   Engineering work to every 3 parts Product work or a 25/75% split. The
-   Engineering work should make a lasting positive change and should be planned
-   and prioritized as well as any product work.
+### Software work can be roughly split into Product and Engineering related activities
+Planning, Implementation, Quality, and Release are common high level
+categories. Regardless of your teams series of steps, some work will be more
+technical debt / engineering / scale [9] related, and some work will be more
+‘add button that does X’ / ‘implement new UI’ related. For the sake of
+conversation, let’s call those two categories “Engineering” and “Product”
+oriented work respectively. In general, product oriented work are features or
+enhancements whose primary goal is help the business succeed. Engineering
+oriented activities are also critical to the success of the business and
+optimize a separate set of metrics. Both sets of work have to happen in a
+constrained amount of time. A good software team will be doing roughly 1 part
+Engineering work to every 3 parts Product work or a 25/75% split. The
+Engineering work should make a lasting positive change and should be planned
+and prioritized as well as any product work.
 
-3. **Developer time is a limited resource**. A team will probably not accomplish
-   more or less than it did the previous time period, all else being equal (and
-   all else isn’t equal). The team cannot be expected to do engineering related
-   activities in their “spare” time, just as much as they cannot be expected to
-   ship new features on evenings and weekends in a sustainable way. 
+### Developer time is a limited resource
+A team will probably not accomplish more or less than it did the previous time
+period, all else being equal (and all else isn’t equal). The team cannot be
+expected to do engineering related activities in their “spare” time, just as
+much as they cannot be expected to ship new features on evenings and weekends
+in a sustainable way. 
 
-4. **The success of the company depends on the success of the Software**. If the
-   uptime of the application is poor then users will be frustrated and quit. If
-   the code base is untested, has no standards, and takes a long time to build,
-   it will be difficult to modify. If the company has to add new features, and
-   the engineering teams ability to ship code depends on the health of the
-   application / code base, then time must be dedicated to working on both of
-   those things. Without doing both of these activities the business may fail.
+### The success of the company depends on the success of the Software
+If the uptime of the application is poor then users will be frustrated and
+quit. If the code base is untested, has no standards, and takes a long time to
+build, it will be difficult to modify. If the company has to add new features,
+and the engineering teams ability to ship code depends on the health of the
+application / code base, then time must be dedicated to working on both of
+those things. Without doing both of these activities the business may fail.
 
-4. **Objective measurements of quality are important**. Measurements of quality are
-   critical for both Engineering and Product work but quality is often times
-   subjective. Our goal should be to make that as objective as possible. The
-   simplest way to do this is to define and measure uptime but more advanced
-   methods could include choosing from a subset of engineering metrics and
-   weighting them appropriately. If uptime during a given time period is poor,
-   then one could say the quality of infrastructure or code is compromised and
-   has to be addressed. From the businesses perspective, it likely does not care
-   about linting rules, unit tests, or reliable deploy processes. It does care
-   about software issues that will affect business metrics like churn, bounce
-   rates, ARPA, etc. Product and Engineering teams can agree on what quality
-   means to the software and business.
+### Objective measurements of quality are important
+Measurements of quality are critical for both Engineering and Product work but
+quality is often times subjective. Our goal should be to make that as objective
+as possible. The simplest way to do this is to define and measure uptime but
+more advanced methods could include choosing from a subset of engineering
+metrics and weighting them appropriately. If uptime during a given time period
+is poor, then one could say the quality of infrastructure or code is
+compromised and has to be addressed. From the businesses perspective, it likely
+does not care about linting rules, unit tests, or reliable deploy processes. It
+does care about software issues that will affect business metrics like churn,
+bounce rates, ARPA, etc. Product and Engineering teams can agree on what
+quality means to the software and business.
 
-5. **Engineering and Product can agree on a simple contract.** If the Quality goes
-   down then the engineering team gets more time for Engineering related work.
-   For example if the software experiences an outage then it gets to increase
-   its Engineering to Product ratio from 25/75 to 50/50 until the quality
-   returns. This gives engineering time to do reactive maintenance to address
-   the issues in the outage. If your metric is associated with response times
-   then the same rules would apply. The benefit of a contract is that breaking
-   this contract becomes an explicit decision vs a tacit agreement.
+Engineering and Product can agree on a simple contract
+If the Quality goes down then the engineering team gets more time for
+Engineering related work.  For example if the software experiences an outage
+then it gets to increase its Engineering to Product ratio from 25/75 to 50/50
+until the quality returns. This gives engineering time to do reactive
+maintenance to address the issues in the outage. If your metric is associated
+with response times then the same rules would apply. The benefit of a contract
+is that breaking this contract becomes an explicit decision vs a tacit
+agreement.
 
 ## How this works in Practice
 

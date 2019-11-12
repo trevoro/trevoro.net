@@ -35,19 +35,18 @@
   margin-top: 0.4em;
 }
 .draft-alert {
-  font-family: 'Helvetica Neue', Helvetica, sans-serif;
   margin-top: 20px;
   margin-bottom: 0;
 }
 article {
   padding-top: 20px;
-  font-family: 'Lato', Georgia, Cambria, 'Times New Roman', Times, serif;
+  font-weight: light;
   vertical-align: baseline;
   display: block;
   margin-bottom: 60px;
+  max-width: 740px;
 }
 article .meta {
-  font-family: "Helvetica Neue", "arial", sans-serif;
   font-size: 14px;
   font-weight: 500;
   margin-bottom: 2rem;
@@ -62,24 +61,34 @@ article .social .ss-icon {
   line-height: 40px;
   padding-top: 5px;
 }
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Heebo", sans-serif;
+}
+article h1 {
+  margin-top: 55px;
+  font-size: 55px;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 57px;
+}
 article h2 {
-  font-size: 1.5em;
-  font-weight: 700;
-  line-height: 51px;
+  font-size: 28px;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 32px;
   padding: 5px 0 5px 0;
   margin-left: -2px;
-  margin-bottom: 2rem;
-  color: rgb(52, 73, 94);
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
 }
 article h2 a {
-  font-family: 'Lato', Geneva, Verdana, sans-serif;
   font-weight: bold;
   text-decoration: none;
   border: none;
   color: rgb(52, 73, 94);
 }
 article h3 {
-  margin-top: 1em;
+  margin-top: 2rem;
   line-height: 1.15em;
 }
 h3.slug {
@@ -98,11 +107,10 @@ article img {
   margin: auto auto;
 }
 article p {
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 1.5em;
-  letter-spacing: normal;
-  margin: 1rem auto 1.5rem auto;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 34.2px;
+  margin-top: 1.2rem;
 }
 button {
   height: 54px;
@@ -144,6 +152,7 @@ a {
 body {
   background: #fff;
   color: rgb(52, 73, 94);
+  font-family: "Lora", Times, serif;
 }
 .unselect {
   -moz-user-select: -moz-none;
@@ -154,9 +163,6 @@ body {
 }
 button:active {
   background: #1b435e;
-}
-strong {
-  font-weight: normal;
 }
 .center {
   text-align: center;
@@ -181,6 +187,11 @@ input::-moz-focus-inner {
     padding-right: 20px !important;
     padding-left: 20px !important;
   }
+}
+
+ol {
+  font-weight: bold;
+  list-style-position: outside;
 }
 
 ol li {
