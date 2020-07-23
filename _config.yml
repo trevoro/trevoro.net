@@ -5,7 +5,6 @@ highlighter: pygments
 safe: false
 title: Trevor O
 production_url: http://trevoro.net
-paginate: 5
 author:
   name: Trevor O
   gravatar: 24969c869ebd849cbe81575761daad15 

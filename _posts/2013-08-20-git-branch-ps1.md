@@ -20,23 +20,25 @@ the master branch. For other branches then I use the `*` token. I dont
 necessarily care which branch it is. For that I still use `git branch`, but at
 least I know I'm not on master.
 
-    WHITE="\[\033[1;37m\]"
-    GREEN="\[\033[0;32m\]"
-    RESET="\[\033[00m\]"
-    BGRAY="\[\033[01;36m\]"
+```shell
+WHITE="\[\033[1;37m\]"
+GREEN="\[\033[0;32m\]"
+RESET="\[\033[00m\]"
+BGRAY="\[\033[01;36m\]"
 
-    _git_branch() {
-      branch=$(git branch --no-color 2> /dev/null | sed -e '/^[^*]/d')
-      if [ "${branch}" == "* master" ] ; then
-        echo "+"
-      elif [ "${branch}" ] ; then
-        echo "*"
-      else
-        echo " "
-      fi	
-    }
+_git_branch() {
+  branch=$(git branch --no-color 2> /dev/null | sed -e '/^[^*]/d')
+  if [ "${branch}" == "* master" ] ; then
+    echo "+"
+  elif [ "${branch}" ] ; then
+    echo "*"
+  else
+    echo " "
+  fi	
+}
 
-    PS1="${GREEN}\h${BGRAY}:\W${WHITE}\$(_git_branch)\$ ${RESET}"
+PS1="${GREEN}\h${BGRAY}:\W${WHITE}\$(_git_branch)\$ ${RESET}"
+```
 
 Here's what you'll see if you're on master
 

@@ -3,6 +3,7 @@ title: How to Balance Technical Debt
 date: 2019-05-04
 layout: post
 hidden: false
+promoted: true
 ---
 
 One of the recurring and common complaints about Agile and its associated

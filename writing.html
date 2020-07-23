@@ -1,0 +1,27 @@
+---
+layout: default
+title: trevoro
+---
+
+<div class="row-fluid">
+  <div class="lead">
+    <h1>Older Posts</h1>
+  </div>
+
+  <div id="posts">
+    {% for p in site.posts %} {% unless p.hidden %}
+    <div class="post-item">
+      <h3><a href="{{ p.url }}">{{ p.title }}</a></h3>
+      <p>
+        {{ p.excerpt | strip_html| strip_newlines }}
+      </p>
+    </div>
+    {% endunless %} {% endfor %}
+  </div>
+</div>
+<a
+  href="//trevoro.net/atom.xml"
+  target="_blank"
+  class="ss-icon ss-social rss-fixed hidden-phone"
+  >rss</a
+>

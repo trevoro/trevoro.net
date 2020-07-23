@@ -1,42 +1,63 @@
-{% assign author = site.authors[page.author] %}
-{% capture page_url %}{{ site.production_url }}{{ page.url }}{% endcapture %}
+{% assign author = site.authors[page.author] %} {% capture page_url %}{{
+site.production_url }}{{ page.url }}{% endcapture %}
 
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <title>{{ page.title }}</title>
-    {% include header.html %}
-  </head>
-	<body>
-		<div class="container">
-			{% if page.hidden %}
-			<div class="row draft-alert">
-				<div class="span8 offset2 alert alert-info">
-					<b>This is a draft</b> You've been given this link in confidence. Please don't 
-					share it with anyone. Thanks!
-				</div>
-			</div>
-			{% endif %}
-      <div class="row">
-				<div class="span8 offset2">
-          <article>
-            <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
-            <h3 class="slug">{{ page.slug }}</h3>
-            {{ content }}
-            <div class="social row-fluid">
-              <a href="#" data-url="{{ page_url }}" data-text="{{ page.title }}" id="share-twitter" class="btn btn-primary pull-left">Share</a>
-              {% if page.hnid != null %} 
-              <a href="https://news.ycombinator.com/item?id={{ page.hnid }}" target="_blank" class="ss-icon pull-right"><span class="icon-hn"></span></a>
-              {% endif %}
-              <a href="#" data-url="{{ page_url }}" id="share-facebook" class="ss-icon ss-social pull-right">facebook</a>
-              <a href="#" data-url="{{ page_url }}" id="share-gplus" style="padding-top: 11px" class="ss-icon ss-social pull-right">googleplus</a>
-            </div>
-          </article>
-        </div>
-      </div>
-    </div>
-    <footer>
-      {% include footer.html %}
-    </footer>
-  </body>
+        <head>
+                <title>{{ page.title }}</title>
+                {% include header.html %}
+        </head>
+        <body>
+                <div class="container">
+                        {% if page.hidden %}
+                        <div class="row draft-alert">
+                                <div class="span8 offset2 alert alert-info">
+                                        <b>This is a draft</b> You've been given
+                                        this link in confidence. Please don't
+                                        share it with anyone. Thanks!
+                                </div>
+                        </div>
+                        {% endif %}
+                        <div class="row">
+                                <div class="span8 offset2">
+                                        <article>
+                                                <h2>
+                                                        <a href="{{ page.url }}"
+                                                                >{{ page.title
+                                                                }}</a
+                                                        >
+                                                </h2>
+                                                <h3 class="slug">
+                                                        {{ page.slug }}
+                                                </h3>
+                                                {{ content }}
+                                                <div class="social row-fluid">
+                                                        <a
+                                                                href="#"
+                                                                data-url="{{ page_url }}"
+                                                                data-text="{{ page.title }}"
+                                                                id="share-twitter"
+                                                                class="btn btn-primary pull-left"
+                                                                >Share</a
+                                                        >
+                                                        {% if page.hnid != null
+                                                        %}
+                                                        <a
+                                                                href="https://news.ycombinator.com/item?id={{ page.hnid }}"
+                                                                target="_blank"
+                                                                class="ss-icon pull-right"
+                                                                ><span
+                                                                        class="icon-hn"
+                                                                ></span
+                                                        ></a>
+                                                        {% endif %}
+                                                </div>
+                                        </article>
+                                </div>
+                        </div>
+                </div>
+                <footer>
+                        {% include footer.html %}
+                </footer>
+        </body>
 </html>

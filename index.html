@@ -4,27 +4,36 @@ title: trevoro
 ---
 
 <div class="row-fluid">
-  <div class="span3 offset1 center sidebar">
-    <h1 class="center">Hello!</h1>
-    {% include author.html %}
-    <div class="social-links">
-      <a href="//twitter.com/trevoro" target="_blank" class="ss-icon ss-social">Twitter</a>
-      <a href="//github.com/trevoro" target="_blank" class="ss-icon ss-social">octocat</a>
-      <a style="vertical-align: top" href="//linkedin.com/in/trevoro" target="_blank" class="ss-icon ss-social">LinkedIn</a>
-    </div>
-  </div>
-
-  <div id="posts" class="span7 offset1">
-    {% for p in site.posts %}
-    {% unless p.hidden %}
-    <div class="row">
-      <div class="span7">
-        <time datetime="{{ p.date | xmlschema }}">{{ p.date | date: "%b %d %Y" }}</time>
-        <h3><a href="{{ p.url }}">{{ p.title }}</a></h3>
-      </div>
-    </div>
-    {% endunless %}
-    {% endfor %}
+  <div class="lead">
+    <img
+      src="https://pbs.twimg.com/profile_images/1280985135236562944/0R71bNoZ_200x200.jpg"
+    />
+    <h1 class="center">Startups, Software, and Other Things</h1>
+    <br />
+    <p>
+      👋 Hi I'm Trevor and I'm a self-taught hacker turned VP of Engineering who
+      helps startups transition into resilient teams. My work priorities are to
+      create a psychologically safe environment for my staff and peers, invent
+      and create new solutions that eliminate
+      <strike>bullshit</strike> drudgery 🤖, and to advance my field. By
+      focusing on creating a healthy system for people to participate in, we can
+      create serendipitous circumstances which foster new ideas and allow us to
+      take advantage of the opportunities we generate. I value transparency,
+      honesty, accountability, and open-mindedness in myself and in my
+      relationships both personally and professionally.
+    </p>
+    <p>
+      Feel free to reach out by sending me an email at
+      <a href="mailto:trevor@trevoro.net">trevor@trevoro.net</a>
+    </p>
+    <p>
+      I'm a self taught software engineer. 🤓 You can read about how I did that
+      <a href="#">here</a>. Follow me on
+      <a href="https://twitter.com/trevoro">twitter</a> if you want hot takes.
+    </p>
+    <p>
+      If you'd like to read some stuff I've written about, then
+      <a href="/writing">here's a big list of ideas and hacks</a>.
+    </p>
   </div>
 </div>
-<a href="//trevoro.net/atom.xml" target="_blank" class="ss-icon ss-social rss-fixed hidden-phone">rss</a>

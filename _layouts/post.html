@@ -1,5 +1,5 @@
-{% assign author = site.authors[page.author] %}
-{% capture page_url %}{{ site.production_url }}{{ page.url }}{% endcapture %}
+{% assign author = site.authors[page.author] %} {% capture page_url %}{{
+site.production_url }}{{ page.url }}{% endcapture %}
 
 <!DOCTYPE html>
 <html lang="en-us">
@@ -7,28 +7,52 @@
     <title>{{ page.title }}</title>
     {% include header.html %}
   </head>
-	<body>
-		<div class="container">
-			{% if page.hidden %}
-			<div class="row draft-alert">
-				<div class="span8 offset2 alert alert-info">
-					<b>This is a draft</b> You've been given this link in confidence. Please don't 
-					share it with anyone. Thanks!
-				</div>
-			</div>
-			{% endif %}
+  <body>
+    <div class="container">
+      {% if page.hidden %}
+      <div class="row draft-alert">
+        <div class="span8 offset2 alert alert-info">
+          <b>This is a draft</b> You've been given this link in confidence.
+          Please don't share it with anyone. Thanks!
+        </div>
+      </div>
+      {% endif %}
       <div class="row">
-				<div class="span8 offset2">
+        <div class="span8 offset2">
           <article>
-            <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+            <h1 class="title">
+              <a href="{{ page.url }}">{{ page.title }}</a>
+            </h1>
             <div class="meta">
-              By <a href="https://plus.google.com/108778004861461261539?rel=author" target="_blank">Trevor O</a> on <time datetime="{{ page.date | xmlschema }}">{{ page.date | date: "%b %d %Y" }}</time>
+              <img
+                src="https://pbs.twimg.com/profile_images/1280985135236562944/0R71bNoZ_200x200.jpg"
+                height="0"
+                width="0"
+              />
+              <span>
+                Trevor Orsztynowicz<br />
+                <time datetime="{{ page.date | xmlschema }}"
+                  >{{ page.date | date: "%D" }}</time
+                >
+              </span>
             </div>
             {{ content }}
             <div class="social row-fluid">
-              <a href="#" data-url="{{ page_url }}" data-text="{{ page.title }}" id="share-twitter" class="btn btn-primary pull-left">Share</a>
-              {% if page.hnid != null %} 
-              <a href="https://news.ycombinator.com/item?id={{ page.hnid }}" target="_blank" class="ss-icon pull-right"><span class="icon-hn"></span></a>
+              <a
+                href="#"
+                data-url="{{ page_url }}"
+                data-text="{{ page.title }}"
+                id="share-twitter"
+                class="btn btn-primary pull-left"
+                >Share</a
+              >
+              {% if page.hnid != null %}
+              <a
+                href="https://news.ycombinator.com/item?id={{ page.hnid }}"
+                target="_blank"
+                class="ss-icon pull-right"
+                ><span class="icon-hn"></span
+              ></a>
               {% endif %}
             </div>
           </article>
