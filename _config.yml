@@ -15,3 +15,6 @@ assets:
   compress:
     js: uglifier
     css: sass
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
